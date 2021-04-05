@@ -2,7 +2,6 @@
 using namespace std;
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define ll long long int
-#define INF 0x3f3f3f3f3f
 #define MOD 1000000007
 
 int main() {
