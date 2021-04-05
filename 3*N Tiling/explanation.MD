@@ -2,6 +2,7 @@
 <details>
   <summary> Hint 1 </summary>
   
-  try reducing the complexity by using segtree
+  try reducing the complexity by using segtree\
+  ok
   
   </details>
