@@ -6,21 +6,24 @@
 
 ## Understanding the Problem :
 
-We are given two arrays of N integers -> a and b \
-\
-We define SSUM[i,j] as
+Given two arrays, A and B of equal lengths n. 
 
-a[i] if i = j \
-\
-a[i] + b[i+1] + b[i+2] + .... + b[j-1] + a[j]  if i < j \
+```
+SSUM[i, j] is defined as : 
+
+  Case 1 (i == j) : A[i]
+  
+  Case 2 (i < j) : A[i] + B[i+1] + B[i+2] + .... + B[j-1] + A[j]
+  
+  Case 3 (i > j) : A[i] + B[i+1] + B[i+2] + .... + B[n] + B[1] + B[2] + .... + B[j-1] + A[j]
+```
+Case 2 : 
 \
 ![alt text](https://i.imgur.com/tr4ZGmN.png)\
-\
-a[i] + b[i+1] + b[i+2] + .... + b[n] + b[1] + b[2] + .... + b[j-1] + a[j] if i > j \
-\
+Case 3 : \
 ![alt text](https://i.imgur.com/rJrpEbB.png)
 
-#### We have to determine the maximum possible SSUM[i,j] for all pairs of i,j.
+Determine the maximum possible value of SSUM[i, j] for all pairs (i, j).
 
 ## Step-By-Step Solution :
 
