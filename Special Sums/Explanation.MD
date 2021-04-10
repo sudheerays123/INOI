@@ -11,7 +11,7 @@ Given two arrays, A and B of equal lengths n.
 ```
 SSUM[i, j] is defined as : 
 
-  Case 1 (i == j) : A[i]
+  Case 1 (i = j) : A[i]
   
   Case 2 (i < j) : A[i] + B[i+1] + B[i+2] + .... + B[j-1] + A[j]
   
