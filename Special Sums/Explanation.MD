@@ -6,7 +6,8 @@
 
 ## Understanding the Problem :
 
-We are given two arrays of N integers -> a and b\\
+We are given two arrays of N integers -> a and b \
+\
 We define SSUM[i,j] as
 
 a[i] if i = j \
