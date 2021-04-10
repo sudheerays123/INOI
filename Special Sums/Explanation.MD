@@ -20,7 +20,7 @@ a[i] + b[i+1] + b[i+2] + .... + b[n] + b[1] + b[2] + .... + b[j-1] + a[j] if i >
 \
 ![alt text](https://i.imgur.com/rJrpEbB.png)
 
-We have to determine the maximum possible SSUM[i,j] for all pairs of i,j.
+#### We have to determine the maximum possible SSUM[i,j] for all pairs of i,j.
 
 ## Step-By-Step Solution :
 
