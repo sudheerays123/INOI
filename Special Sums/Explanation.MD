@@ -11,6 +11,7 @@ We are given two arrays of N integers -> a and b \
 We define SSUM[i,j] as
 
 a[i] if i = j \
+\
 a[i] + b[i+1] + b[i+2] + .... + b[j-1] + a[j]  if i < j \
 \
 ![alt text](https://i.imgur.com/tr4ZGmN.png)\
