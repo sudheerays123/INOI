@@ -19,9 +19,9 @@ SSUM[i, j] is defined as :
 ```
 Case 2 : 
 \
-![alt text](https://i.imgur.com/tr4ZGmN.png)\
+![alt text](https://i.imgur.com/GbtO2Z6.png)\
 Case 3 : \
-![alt text](https://i.imgur.com/rJrpEbB.png)
+![alt text](https://i.imgur.com/HCjEaq0.png)
 
 Determine the maximum possible value of SSUM[i, j] for all pairs (i, j).
 
