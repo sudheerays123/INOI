@@ -9,9 +9,9 @@
 We are given two arrays of N integers -> a and b
 We define SSUM[i,j] as
 
-a[i] if i = j /
-a[i] + a[j] + b[i+1] + b[i+2] + .... + b[j-1]  if i < j /
-a[i] + a[j] + b[i+1] + b[i+2] + .... + b[n] + b[1] + b[2] + .... + b[j-1]  if i > j /
+a[i] if i = j \
+a[i] + a[j] + b[i+1] + b[i+2] + .... + b[j-1]  if i < j \
+a[i] + a[j] + b[i+1] + b[i+2] + .... + b[n] + b[1] + b[2] + .... + b[j-1]  if i > j \
 
 We have to determine the maximum possible SSUM[i,j] for all pairs of i,j.
 
