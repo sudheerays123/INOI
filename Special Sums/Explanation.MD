@@ -20,15 +20,4 @@ We have to determine the maximum possible SSUM[i,j] for all pairs of i,j.
 <details>
   <summary> Step 1 </summary>
   
-  \
-  This is a very important step\
-  very bery
-  
-  ```cpp
-  for(ll i = 0; i < n; i++){
-    dp[i] = dp[i-1] + 1;
-  }
-  ```
   </details>
-
-## Similar Problems :
