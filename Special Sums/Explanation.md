@@ -2,7 +2,7 @@
 
 #### Problem Link : https://www.codechef.com/INOIPRAC/problems/INOI1501
 #### Difficulty : Medium
-#### prerequisite : Prefix Sums
+#### Prerequisite : Prefix Sums
 
 ## Understanding the Problem :
 
