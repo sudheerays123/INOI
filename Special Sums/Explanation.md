@@ -35,4 +35,27 @@ Determine the maximum possible value of SSUM[i, j] for all pairs (i, j).
 <details>
   <summary> Step 1 </summary>
   
+  First , we will try brute-force i.e for all pairs of i and j , we will compute it's SSUM and take the maximum of all of them. 
+
+```cpp
+  for i from 1 to n :
+        for j from 1 to n :
+
+              if i = j : ssum = a[i]
+
+              if i < j : 
+                      ssum = a[i] + a[j]
+                      for k from i+1 to j-1 :
+                            ssum = ssum + b[k]
+
+              if i > j :
+                      ssum = a[i] + a[j]
+                      for k from i+1 to n :
+                            ssum = ssum + b[k]
+                      for k from 1 to j-1 :
+                            ssum = ssum + b[k]
+
+              ans = maximum ( ans , ssum )
+             ```
+  
   </details>
