@@ -5,8 +5,8 @@
 
 <details>
   <summary> Prerequisite </summary>
-   
-   **Prefix Sums**
+  <br></br>
+  **Prefix Sums**
   </details>
 
 ## Understanding the Problem :
