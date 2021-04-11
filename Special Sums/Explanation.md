@@ -14,10 +14,8 @@ SSUM[i, j] is defined as :
   Case 1 (i = j) : A[i]
   
   Case 2 (i < j) : A[i] + B[i+1] + B[i+2] + .... + B[j-1] + A[j] \
-  
-  ![alt text](https://i.imgur.com/GbtO2Z6.png)\
-  
-  Case 3 (i > j) : A[i] + B[i+1] + B[i+2] + .... + B[n] + B[1] + B[2] + .... + B[j-1] + A[j]
+    
+  Case 3 (i > j) : A[i] + B[i+1] + B[i+2] + .... + B[n] + B[1] + B[2] + .... + B[j-1] + A[j] \
 ```
 Case 2 : 
 \
