@@ -2,7 +2,12 @@
 
 #### Problem Link : https://www.codechef.com/INOIPRAC/problems/INOI1501
 #### Difficulty : Medium
-#### Pre-Requisites : Prefix Sums
+
+<details>
+  <summary> Prerequisite </summary>
+  <br>
+  **Prefix Sums**
+  </details>
 
 ## Understanding the Problem :
 
