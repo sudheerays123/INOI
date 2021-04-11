@@ -5,7 +5,7 @@
 
 <details>
   <summary> Prerequisite </summary>
-    <br>
+   
    **Prefix Sums**
   </details>
 
