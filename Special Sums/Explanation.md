@@ -53,6 +53,6 @@ Determine the maximum possible value of SSUM[i, j] for all pairs (i, j).
                             ssum = ssum + b[k]
 
               ans = maximum ( ans , ssum )
-             ```
+ ```
   
   </details>
